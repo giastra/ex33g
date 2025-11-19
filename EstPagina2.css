@@ -1,0 +1,16 @@
+#itens{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+}
+ .armas{
+    width: 90px;
+ 
+ }
+
+ .nomeArmas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
