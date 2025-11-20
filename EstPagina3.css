@@ -1,0 +1,13 @@
+#historia{
+    display: flex;
+    flex-flow:row;
+}
+#ex33{
+    display: flex;
+    flex-flow:row;
+}
+
+.ibagem{
+    width: 50%;
+    height: 100%;
+}
