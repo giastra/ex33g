@@ -2,10 +2,45 @@
 
 #ex33{
     display: flex;
+    float: right;
     flex-flow:row;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 30px;
+    align-items: center;
 }
 
 #gustave{
     display: flex;
-    flex-flow: row
+    flex-flow: row;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 30px;
+    align-items: center;
 } 
+
+@media (max-width:768px){
+    #gustave{
+        flex-flow: column;
+        justify-self: center;
+        align-items: center;
+    }
+    #ex33{
+        flex-flow: column;
+        justify-self: center;
+        align-content: center;
+    }
+}
+
+@media all and (max-width:1279px) and (min-width:769px) {
+    #gustave{
+        flex-flow: column;
+        justify-self: center;
+        align-items: center;
+    }
+    #ex33{
+        flex-flow: column;
+        justify-self: center;
+        align-content: center;
+    }
+}

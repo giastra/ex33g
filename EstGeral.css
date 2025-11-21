@@ -3,6 +3,17 @@ body{
     color: rgb(240, 206, 54);
     margin: 0%;
     margin-bottom: 5%;
+    
+    background-image: url(/ibagens/fundo-3.png);
+    background-size:100%;
+    background-position: top;
+    background-attachment:scroll;
+    
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    
 }
 
 nav{
@@ -19,11 +30,13 @@ nav{
 
 #capa{
   width: 100px;
+  margin-left: 20px;
 }
 ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 20px;;
   width: 20%;
 }
@@ -34,5 +47,29 @@ a:visited{color: rgb(255, 255, 0);}
 a:hover{color: rgb(255, 255, 150);}
 
 main{
-    margin-top:10%
+    margin: 90px;
+  
+}
+
+.hamburger{
+  display: none;
+  font-size: 2rem;
+}
+
+@media (max-width:768px){
+  ul{display: none;}
+  .hamburger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media all and (max-width:1279px) and (min-width:769px) {
+  ul{
+    gap: 20px;
+  }
+  nav{
+    gap:40%
+  }
 }
