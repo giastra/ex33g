@@ -63,6 +63,9 @@ main{
     justify-content: space-between;
     align-items: center;
   }
+  main{
+      margin: 50px;
+   }
 }
 
 @media all and (max-width:1279px) and (min-width:769px) {

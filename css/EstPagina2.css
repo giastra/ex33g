@@ -1,0 +1,53 @@
+#itens{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 40px;
+}
+ .armas{
+    width: 80px;
+ 
+ }
+
+ .local{
+   display: flex;
+   flex-flow: column;
+ }
+
+ .dica{
+   display: none;
+ }
+
+ .nomeArmas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+ :hover.nomeArmas{
+   .dica{display: contents;}
+
+   width: 100%;
+   background-color: rgb(34, 33, 33);
+ }
+
+ @media (max-width:768px){
+   #itens{
+      grid-template-columns: 1fr;
+      justify-items:left;
+   }
+   .armas{
+      width: 70px;
+   }  
+ }
+
+ @media all and (max-width:1279px) and (min-width:769px) {
+   #itens{
+      grid-template-columns: 1fr 1fr;
+      justify-items:left;
+   }
+   .armas{
+      width: 80px;
+   }  
+ }
