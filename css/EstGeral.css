@@ -29,7 +29,10 @@ nav{
 }
 
 #capa{
-  width: 100px;
+  width: 7%;
+  height: 100%;
+  flex-flow: column;
+  align-self: center;
   margin-left: 20px;
 }
 ul {
@@ -42,8 +45,8 @@ ul {
 }
 
 
-a:link{color: rgb(255, 255, 0);}
-a:visited{color: rgb(255, 255, 0);}
+a:link{color: rgb(240, 206, 54);}
+a:visited{color: rgb(240, 206, 54);}
 a:hover{color: rgb(255, 255, 150);}
 
 main{
@@ -66,6 +69,9 @@ main{
   main{
       margin: 50px;
    }
+   #capa{
+    width: 20%;
+   }
 }
 
 @media all and (max-width:1279px) and (min-width:769px) {
@@ -74,5 +80,8 @@ main{
   }
   nav{
     gap:40%
+  }
+  #capa{
+    width: 10%;
   }
 }

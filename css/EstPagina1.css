@@ -18,6 +18,13 @@
     align-items: center;
 } 
 
+#gustave_img{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+}
+
 @media (max-width:768px){
     #gustave{
         flex-flow: column;
