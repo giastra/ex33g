@@ -4,7 +4,7 @@ body{
     margin: 0%;
     margin-bottom: 5%;
     
-    background-image: #gustave_img;
+    background-image: url('fundo-3.png');
     background-size:100%;
     background-position: top;
     background-attachment:scroll;
