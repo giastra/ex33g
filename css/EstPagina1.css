@@ -1,10 +1,17 @@
-#ex33{
-    display: flex;
-    flex-flow: row;
-    margin-left: 120px;
-    margin-right: 70px;    
+/* Titulos */
+h1{
+    margin-left: 100px;
 }
 
+h2{
+    margin-left: 110px;
+}
+
+h3{
+    margin-left: 300px;
+}
+
+/* Organização dos textos com a imagem */
 #gustave{
     display: flex;
     flex-flow: row;
@@ -12,15 +19,17 @@
     margin-right: 70px;
 } 
 
+#ex33{
+    display: flex;
+    flex-flow: row;
+    margin-left: 120px;
+    margin-right: 70px;    
+}
+
+/* imagens */
 #gustave_img{
     width: 50%;
     margin-left: 25%;    
-}
-
-#musica{
-    width: 50%;
-    margin-left: 25%;
-    height: 350px; 
 }
 
 #exImg33{
@@ -29,30 +38,34 @@
     padding-left: 25px;
 }
 
+
 #gustavImg{
     width: 200px;
     margin-right: 30px;
     padding-left: 25px;
 }
 
-h2{
-    margin-left: 90px;
+/* musica/vidieo */
+#musica{
+    width: 50%;
+    margin-left: 25%;
+    height: 350px; 
 }
 
-h3{
-    margin-left: 300px;
-}
 
+
+/* Adaptação para telas pequanas */
 @media (max-width:768px){
+    
     #gustave{
         flex-flow: column;
-        justify-self: center;
+        align-items: center;
         margin-left: 70px;
         margin-right: 70px;
     }
     #ex33{
         flex-flow: column;
-        justify-self: center;
+        align-items: center;
         margin-left: 70px;
         margin-right: 70px;
     }
@@ -62,18 +75,23 @@ h3{
     h3{
         margin-left: 30px;
     }
+    h1{
+        margin-left: 30px;
+    }
+  
 }
 
+/* Adaptação para telas medias */
 @media all and (max-width:1279px) and (min-width:769px) {
     #gustave{
      flex-flow: column;
-        justify-self: center;
+        align-items: center;
         margin-left: 70px;
         margin-right: 70px;
     }
     #ex33{
       flex-flow: column;
-        justify-self: center;
+        align-items: center;
         margin-left: 70px;
         margin-right: 70px;
     }
