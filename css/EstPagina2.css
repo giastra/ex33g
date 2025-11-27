@@ -37,6 +37,7 @@
    background-color: rgb(34, 33, 33);
  }
 
+ /* telas pequenas */
  @media (max-width:768px){
    #itens{
       grid-template-columns: 1fr;
@@ -47,6 +48,7 @@
    }  
  }
 
+/* telas medias */
  @media all and (max-width:1279px) and (min-width:769px) {
    #itens{
       grid-template-columns: 1fr 1fr;
